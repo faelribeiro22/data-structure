@@ -71,3 +71,6 @@ typings/
 
 # Serverless directories
 .serverless
+
+# folder of build babel
+lib

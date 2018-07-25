@@ -1,4 +1,4 @@
-var Stack = require('./index');
+const Stack = require('./index');
 
 const stack = new Stack();
 
