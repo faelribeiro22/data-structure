@@ -1,0 +1,31 @@
+{
+  "name": "data-structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepush": "npm run lint",
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faelribeiro22/data-structure.git"
+  },
+  "keywords": [],
+  "author": "Rafael Ribeiro de Sousa <faelribeirodesousa@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/faelribeiro22/data-structure/issues"
+  },
+  "homepage": "https://github.com/faelribeiro22/data-structure#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "husky": "^0.14.3"
+  }
+}
