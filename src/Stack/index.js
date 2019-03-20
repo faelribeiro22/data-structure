@@ -1,4 +1,4 @@
-/** Class representes a Stack and a methods with use */
+/** This class represents a data structure stack and its methods */
 class Stack {
   /**
    * Make a stack
