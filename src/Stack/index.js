@@ -10,7 +10,7 @@ class Stack {
 
   /**
    * Add a new element in top of stack
-   * @param {*} element 
+   * @param {*} element
    */
   push(element) {
     this.items.push(element);
